@@ -881,12 +881,12 @@
         $('.btn-menu-close').show();
         $('ul.list-menu-icon').css('opacity','1');
     }, 3000); 
-    $( window ).on("load", function(){
-		if($('.bii-logo').length > 0){
-			$('#menu-access').css('bottom','278px');
-			document.querySelector('style').textContent += "@media (max-width: 799px){#menu-access{bottom: 238px!important;}}"
-		} 
-	})
+    // $( window ).on("load", function(){
+	// 	if($('.bii-logo').length > 0){
+	// 		$('#menu-access').css('bottom','278px');
+	// 		document.querySelector('style').textContent += "@media (max-width: 799px){#menu-access{bottom: 238px!important;}}"
+	// 	} 
+	// })
     function shakeTooltip(){
         var arrTooltip = $('ul.list-menu-icon').children();
         arrTooltip.each(function(index) {
